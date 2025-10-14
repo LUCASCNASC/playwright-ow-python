@@ -1,4 +1,4 @@
-from ...gerarDados import gerarCpf, gerarNomeAleatorio, gerarCNPJ, gerarNomeEmpresa
+from ..gerarDados import gerarCpf, gerarNomeAleatorio, gerarCNPJ, gerarNomeEmpresa
 from playwright.sync_api import expect, Page
 
 # Page Object para preencher dados do cliente simples (formulário).
